@@ -14,3 +14,6 @@ write_to = "pygbm/version.py"
 
 [tool.setuptools.packages.find]
 where = ["."]
+
+[project.scripts]
+pygbm = "pygbm.cli:main"

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pygbm"
+dynamic = ["version"]
+description = "A python package to simulate geometric brownian motion"
+authors = [{name = "Chris Miller"}, {email = "clm96@cam.ac.uk"}]
+dependencies = []
+
+[tool.setuptools_scm]
+write_to = "pygbm/version.py"
+
+[tool.setuptools.packages.find]
+where = ["."]

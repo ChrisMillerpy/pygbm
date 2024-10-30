@@ -7,7 +7,7 @@ name = "pygbm"
 dynamic = ["version"]
 description = "A python package to simulate geometric brownian motion"
 authors = [{name = "Chris Miller"}, {email = "clm96@cam.ac.uk"}]
-dependencies = []
+dependencies = ["numpy"]
 
 [tool.setuptools_scm]
 write_to = "pygbm/version.py"

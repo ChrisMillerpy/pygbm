@@ -6,3 +6,6 @@
 
 # versioning
 pygbm/version.py
+
+# images
+*.png

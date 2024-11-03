@@ -12,3 +12,6 @@ pygbm/version.py
 
 # images
 *.png
+
+# distribution
+dist/

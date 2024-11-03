@@ -15,3 +15,6 @@ pygbm/version.py
 
 # distribution
 dist/
+
+# documentation
+_build

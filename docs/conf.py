@@ -37,8 +37,6 @@ html_static_path = ['_static']
 
 masterdoc= "index"
 
-pygments_style = "default"
-
 highlight_language = "python3"
 
 nbsphinx_execute_arguments = [
